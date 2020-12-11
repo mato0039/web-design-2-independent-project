@@ -99,14 +99,6 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.contact {
-  margin: 1.5rem;
-}
-
-.contact h2 {
-  font-size: 4rem;
-}
-
 .intro p {
   align-items: center;
   font-size: 4rem;
@@ -151,6 +143,18 @@ h1 {
 .description {
   font-size: 1rem;
   position: absolute;
+}
+
+.contact {
+  margin: 1.5rem;
+}
+
+.contact h2 {
+  font-size: 4rem;
+}
+
+fieldset {
+  border: none;
 }
 
 @media only screen and (min-width: 640px) {

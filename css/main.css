@@ -103,7 +103,7 @@ h1 {
 
 .img-portfolio {
   margin-bottom: 2rem;
-  max-width: 500px;
+  max-width: 31.25em;
   max-height: 500px;
   padding: 1rem;
 }
@@ -118,8 +118,8 @@ h1 {
   bottom: 0;
   left: 0;
   right: 0;
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 31.25em;
+  max-height: 31.25em;
   opacity: 0;
   transition: .5s ease;
   background-color: #d94a3d;

@@ -179,6 +179,19 @@ h1 {
   font-size: 2rem;
 }
 
+.work-section h2 {
+  font-size: 3rem;
+}
+
+.work-content {
+  align-items: center;
+  display: flex;
+}
+
+.work-content img {
+  width: 50%;
+}
+
 .contact {
   margin: 1.5rem;
 }

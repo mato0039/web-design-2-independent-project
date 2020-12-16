@@ -182,7 +182,8 @@ h1 {
   font-size: 2rem;
 }
 
-.work-section {
+.work-section,
+.print-content {
     margin-bottom: 10rem;
 }
 
@@ -381,6 +382,11 @@ footer {
 
   .branding-content img {
     margin: 0 auto;
+  }
+
+  .print-content img,
+  .illustration-content img {
+    max-width: 70%;
   }
 
   .portfolio-images {

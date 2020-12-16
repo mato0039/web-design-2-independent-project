@@ -170,6 +170,7 @@ h1 {
   display: flex;
   flex-direction: column;
   margin: 0 1.5rem;
+  margin-bottom: 10rem;
   text-align: center;
 }
 
@@ -179,6 +180,10 @@ h1 {
 
 .about p {
   font-size: 2rem;
+}
+
+.work-section {
+    margin-bottom: 10rem;
 }
 
 .work-section h2 {
@@ -207,15 +212,22 @@ h1 {
   margin: 0;
 }
 
+.project-title {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
 .print-content {
+  align-items: center;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
 }
 
 .print-content img {
+  margin: 0 auto;
   margin-bottom: 3rem;
-  width: 50%;
 }
 
 .branding-content p,
@@ -255,13 +267,19 @@ h1 {
 input {
   border: none;
   border-bottom: 1px solid #000;
+  color: #173158;
   font-size: 2rem;
+  font-weight: lighter;
   height: 3rem;
 }
 
 textarea {
+  border: 1px solid #000;
+  border-radius: none;
+  color: #173158;
   font-family: "Syne", sans-serif;
-  font-size: 2rem;
+  font-weight: lighter;
+  font-size: 1rem;
   height: 15rem;
 }
 
@@ -269,8 +287,28 @@ textarea {
   margin-bottom: 1.5rem;
 }
 
-footer small{
-  margin: 0 auto;
+.button {
+  text-align: center;
+}
+
+.btn {
+  background-color: #d94a3d;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 2rem;
+  padding: .5rem 1.5rem;
+  text-align: center;
+  transition: .5s linear;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+footer {
+  margin: 3rem;
+  text-align: center;
 }
 
 @media only screen and (min-width: 38em) {
@@ -288,7 +326,6 @@ footer small{
   .intro p {
     font-size: 3rem;
   }
-
 
 }
 

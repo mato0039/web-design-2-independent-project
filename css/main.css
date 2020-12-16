@@ -116,6 +116,14 @@ h1 {
   margin: 0;
 }
 
+.portfolio {
+  margin: 0 1.5rem;
+}
+
+.portfolio h2 {
+  font-size: 3rem;
+}
+
 .img-portfolio {
   margin-bottom: 2rem;
   max-width: 31.25em;
@@ -265,8 +273,7 @@ input {
     margin: 0 1.5rem;
   }
 
-
-  .portfolio {
+  .portfolio-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -285,7 +292,7 @@ input {
     margin: auto;
   }
 
-  .portfolio {
+  .portfolio-images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;

@@ -36,7 +36,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 1.5rem;
+  margin: 3rem;
 }
 
 .logo-header {
@@ -121,7 +121,10 @@ h1 {
 }
 
 .portfolio h2 {
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10rem;
+  text-align: center;
 }
 
 .img-portfolio {
@@ -219,6 +222,10 @@ input {
   border-bottom: 1px solid #000;
 }
 
+footer small{
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
@@ -269,7 +276,8 @@ input {
     font-size: 2rem;
   }
 
-  .intro {
+  .intro,
+  .portfolio h2 {
     text-align: left;
   }
 

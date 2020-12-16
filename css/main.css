@@ -184,7 +184,7 @@ h1 {
 
 .work-section,
 .print-content {
-    margin-bottom: 10rem;
+  margin-bottom: 10rem;
 }
 
 .work-section h2 {
@@ -277,7 +277,7 @@ input {
 
 textarea {
   border: 1px solid #000;
-  border-radius: none;
+  border-radius: 0;
   color: #173158;
   font-family: "Syne", sans-serif;
   font-weight: lighter;

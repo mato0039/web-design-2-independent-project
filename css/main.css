@@ -184,16 +184,19 @@ h1 {
 
 .work-section,
 .print-content {
+  margin: 0 1.5rem;
   margin-bottom: 10rem;
 }
 
 .work-section h2 {
   font-size: 3rem;
   margin: 3rem;
+  text-align: center;
 }
 
 .work-text {
-  margin: 3rem;
+  margin: 0 auto;
+  margin-bottom: 0;
   max-width: 30em;
 }
 
@@ -211,13 +214,15 @@ h1 {
 
 .project {
   font-size: 1rem;
-  margin: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .project-title {
   font-size: 1.5rem;
   font-weight: bold;
   padding-bottom: 1rem;
+  margin: 0;
 }
 
 .print-content {
@@ -227,8 +232,15 @@ h1 {
   margin: 0 auto;
 }
 
-.print-content img {
+.print-content img,
+.illustration-content img {
   margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 3rem;
 }
 
@@ -249,7 +261,8 @@ h1 {
 }
 
 .connect h2 {
-  font-size: 4rem;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .form {
@@ -382,6 +395,10 @@ footer {
 
   .branding-content img {
     margin: 0 auto;
+  }
+
+  .connect h2 {
+    font-size: 4rem;
   }
 
   .print-content img,

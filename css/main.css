@@ -211,7 +211,7 @@ h1 {
 }
 
 .branding-content img {
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .project {
@@ -396,6 +396,7 @@ footer {
 
   .branding-content img {
     margin: 0 auto;
+    margin-bottom: 3rem;
   }
 
   .connect h2 {
@@ -404,6 +405,7 @@ footer {
 
   .print-content img,
   .illustration-content img {
+    margin-bottom: 3rem;
     max-width: 70%;
   }
 

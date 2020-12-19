@@ -167,6 +167,7 @@ h1 {
 }
 
 .about {
+  align-items: center;
   display: flex;
   flex-direction: column;
   margin: 0 1.5rem;
@@ -179,7 +180,8 @@ h1 {
 }
 
 .about p {
-  font-size: 2rem;
+  margin: 1.5rem auto;
+  font-size: 1.5rem;
 }
 
 .work-section,
@@ -342,6 +344,10 @@ footer {
     font-size: 3rem;
   }
 
+  .about {
+    text-align: left;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -380,17 +386,12 @@ footer {
     text-align: left;
   }
 
-  .about {
-    flex-direction: row;
-    text-align: left;
-  }
-
   .about img {
-    max-width: 70%;
+    width: 50%;
   }
 
   .about p {
-    margin: 0 1.5rem;
+    max-width: 70%;
   }
 
   .branding-content img {
